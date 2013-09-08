@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02473E8517DAA446009CA2C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02473E8417DAA446009CA2C0 /* UIKit.framework */; };
+		02473E8717DAA446009CA2C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02473E8617DAA446009CA2C0 /* Foundation.framework */; };
+		02473E8917DAA446009CA2C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02473E8817DAA446009CA2C0 /* CoreGraphics.framework */; };
+		02473E8B17DAA446009CA2C0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02473E8A17DAA446009CA2C0 /* CoreData.framework */; };
+		02473E9117DAA446009CA2C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02473E8F17DAA446009CA2C0 /* InfoPlist.strings */; };
+		02473E9317DAA446009CA2C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02473E9217DAA446009CA2C0 /* main.m */; };
+		02473E9717DAA446009CA2C0 /* RXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02473E9617DAA446009CA2C0 /* RXAppDelegate.m */; };
+		02473E9917DAA446009CA2C0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02473E9817DAA446009CA2C0 /* Default.png */; };
+		02473E9B17DAA446009CA2C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02473E9A17DAA446009CA2C0 /* Default@2x.png */; };
+		02473E9D17DAA446009CA2C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02473E9C17DAA446009CA2C0 /* Default-568h@2x.png */; };
+		02473EA017DAA446009CA2C0 /* RixNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02473E9E17DAA446009CA2C0 /* RixNotes.xcdatamodeld */; };
+		02473EA817DAA446009CA2C0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02473EA717DAA446009CA2C0 /* SenTestingKit.framework */; };
+		02473EA917DAA446009CA2C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02473E8417DAA446009CA2C0 /* UIKit.framework */; };
+		02473EAA17DAA446009CA2C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02473E8617DAA446009CA2C0 /* Foundation.framework */; };
+		02473EAB17DAA446009CA2C0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02473E8A17DAA446009CA2C0 /* CoreData.framework */; };
+		02473EB317DAA446009CA2C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02473EB117DAA446009CA2C0 /* InfoPlist.strings */; };
+		02473EB617DAA447009CA2C0 /* RixNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02473EB517DAA447009CA2C0 /* RixNotesTests.m */; };
+		02473EC517DAACB0009CA2C0 /* RXNoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02473EC417DAACB0009CA2C0 /* RXNoteListViewController.m */; };
+		02473EC917DAAFE2009CA2C0 /* RXNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 02473EC817DAAFE2009CA2C0 /* RXNote.m */; };
+		02473ECC17DAB122009CA2C0 /* RXRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 02473ECB17DAB122009CA2C0 /* RXRemoteObject.m */; };
+		027531CF17DC064E00F458B0 /* RXNoteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 027531CE17DC064E00F458B0 /* RXNoteService.m */; };
+		027531D217DC065A00F458B0 /* RXUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 027531D117DC065A00F458B0 /* RXUserService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02473EAC17DAA446009CA2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02473E7917DAA446009CA2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02473E8017DAA446009CA2C0;
+			remoteInfo = RixNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02473E8117DAA446009CA2C0 /* RixNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RixNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02473E8417DAA446009CA2C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02473E8617DAA446009CA2C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02473E8817DAA446009CA2C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02473E8A17DAA446009CA2C0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		02473E8E17DAA446009CA2C0 /* RixNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RixNotes-Info.plist"; sourceTree = "<group>"; };
+		02473E9017DAA446009CA2C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02473E9217DAA446009CA2C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02473E9417DAA446009CA2C0 /* RixNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RixNotes-Prefix.pch"; sourceTree = "<group>"; };
+		02473E9517DAA446009CA2C0 /* RXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXAppDelegate.h; sourceTree = "<group>"; };
+		02473E9617DAA446009CA2C0 /* RXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXAppDelegate.m; sourceTree = "<group>"; };
+		02473E9817DAA446009CA2C0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		02473E9A17DAA446009CA2C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		02473E9C17DAA446009CA2C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		02473E9F17DAA446009CA2C0 /* RixNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RixNotes.xcdatamodel; sourceTree = "<group>"; };
+		02473EA617DAA446009CA2C0 /* RixNotesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RixNotesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02473EA717DAA446009CA2C0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		02473EB017DAA446009CA2C0 /* RixNotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RixNotesTests-Info.plist"; sourceTree = "<group>"; };
+		02473EB217DAA446009CA2C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02473EB417DAA447009CA2C0 /* RixNotesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RixNotesTests.h; sourceTree = "<group>"; };
+		02473EB517DAA447009CA2C0 /* RixNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RixNotesTests.m; sourceTree = "<group>"; };
+		02473EC317DAACB0009CA2C0 /* RXNoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXNoteListViewController.h; sourceTree = "<group>"; };
+		02473EC417DAACB0009CA2C0 /* RXNoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXNoteListViewController.m; sourceTree = "<group>"; };
+		02473EC717DAAFE2009CA2C0 /* RXNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXNote.h; sourceTree = "<group>"; };
+		02473EC817DAAFE2009CA2C0 /* RXNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXNote.m; sourceTree = "<group>"; };
+		02473ECA17DAB122009CA2C0 /* RXRemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRemoteObject.h; sourceTree = "<group>"; };
+		02473ECB17DAB122009CA2C0 /* RXRemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRemoteObject.m; sourceTree = "<group>"; };
+		027531CD17DC064E00F458B0 /* RXNoteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXNoteService.h; sourceTree = "<group>"; };
+		027531CE17DC064E00F458B0 /* RXNoteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXNoteService.m; sourceTree = "<group>"; };
+		027531D017DC065A00F458B0 /* RXUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXUserService.h; sourceTree = "<group>"; };
+		027531D117DC065A00F458B0 /* RXUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXUserService.m; sourceTree = "<group>"; };
+		027531D417DC07A600F458B0 /* RXConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXConstants.h; sourceTree = "<group>"; };
+		027531D517DC07AF00F458B0 /* RXMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXMacros.h; sourceTree = "<group>"; };
+		027531D617DC08C800F458B0 /* RXCompatibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXCompatibility.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02473E7E17DAA446009CA2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02473E8517DAA446009CA2C0 /* UIKit.framework in Frameworks */,
+				02473E8717DAA446009CA2C0 /* Foundation.framework in Frameworks */,
+				02473E8917DAA446009CA2C0 /* CoreGraphics.framework in Frameworks */,
+				02473E8B17DAA446009CA2C0 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02473EA217DAA446009CA2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02473EA817DAA446009CA2C0 /* SenTestingKit.framework in Frameworks */,
+				02473EA917DAA446009CA2C0 /* UIKit.framework in Frameworks */,
+				02473EAA17DAA446009CA2C0 /* Foundation.framework in Frameworks */,
+				02473EAB17DAA446009CA2C0 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02473E7817DAA446009CA2C0 = {
+			isa = PBXGroup;
+			children = (
+				02473E8C17DAA446009CA2C0 /* RixNotes */,
+				02473EAE17DAA446009CA2C0 /* RixNotesTests */,
+				02473E8317DAA446009CA2C0 /* Frameworks */,
+				02473E8217DAA446009CA2C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02473E8217DAA446009CA2C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02473E8117DAA446009CA2C0 /* RixNotes.app */,
+				02473EA617DAA446009CA2C0 /* RixNotesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02473E8317DAA446009CA2C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02473E8417DAA446009CA2C0 /* UIKit.framework */,
+				02473E8617DAA446009CA2C0 /* Foundation.framework */,
+				02473E8817DAA446009CA2C0 /* CoreGraphics.framework */,
+				02473E8A17DAA446009CA2C0 /* CoreData.framework */,
+				02473EA717DAA446009CA2C0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02473E8C17DAA446009CA2C0 /* RixNotes */ = {
+			isa = PBXGroup;
+			children = (
+				02473EBF17DAAC50009CA2C0 /* Source */,
+				02473E9517DAA446009CA2C0 /* RXAppDelegate.h */,
+				02473E9617DAA446009CA2C0 /* RXAppDelegate.m */,
+				02473E9E17DAA446009CA2C0 /* RixNotes.xcdatamodeld */,
+				02473E8D17DAA446009CA2C0 /* Supporting Files */,
+			);
+			path = RixNotes;
+			sourceTree = "<group>";
+		};
+		02473E8D17DAA446009CA2C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02473E8E17DAA446009CA2C0 /* RixNotes-Info.plist */,
+				02473E8F17DAA446009CA2C0 /* InfoPlist.strings */,
+				02473E9217DAA446009CA2C0 /* main.m */,
+				02473E9417DAA446009CA2C0 /* RixNotes-Prefix.pch */,
+				02473E9817DAA446009CA2C0 /* Default.png */,
+				02473E9A17DAA446009CA2C0 /* Default@2x.png */,
+				02473E9C17DAA446009CA2C0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02473EAE17DAA446009CA2C0 /* RixNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				02473EB417DAA447009CA2C0 /* RixNotesTests.h */,
+				02473EB517DAA447009CA2C0 /* RixNotesTests.m */,
+				02473EAF17DAA446009CA2C0 /* Supporting Files */,
+			);
+			path = RixNotesTests;
+			sourceTree = "<group>";
+		};
+		02473EAF17DAA446009CA2C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02473EB017DAA446009CA2C0 /* RixNotesTests-Info.plist */,
+				02473EB117DAA446009CA2C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02473EBF17DAAC50009CA2C0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				027531D317DC077D00F458B0 /* Core */,
+				02473EC617DAAFCF009CA2C0 /* Model */,
+				027531CC17DAB35C00F458B0 /* Services */,
+				02473EC017DAAC5E009CA2C0 /* UI */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		02473EC017DAAC5E009CA2C0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				02473EC117DAAC6B009CA2C0 /* View Controllers */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		02473EC117DAAC6B009CA2C0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				02473EC217DAAC96009CA2C0 /* Note List */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		02473EC217DAAC96009CA2C0 /* Note List */ = {
+			isa = PBXGroup;
+			children = (
+				02473EC317DAACB0009CA2C0 /* RXNoteListViewController.h */,
+				02473EC417DAACB0009CA2C0 /* RXNoteListViewController.m */,
+			);
+			name = "Note List";
+			sourceTree = "<group>";
+		};
+		02473EC617DAAFCF009CA2C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02473EC717DAAFE2009CA2C0 /* RXNote.h */,
+				02473EC817DAAFE2009CA2C0 /* RXNote.m */,
+				02473ECA17DAB122009CA2C0 /* RXRemoteObject.h */,
+				02473ECB17DAB122009CA2C0 /* RXRemoteObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		027531CC17DAB35C00F458B0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				027531CD17DC064E00F458B0 /* RXNoteService.h */,
+				027531CE17DC064E00F458B0 /* RXNoteService.m */,
+				027531D017DC065A00F458B0 /* RXUserService.h */,
+				027531D117DC065A00F458B0 /* RXUserService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		027531D317DC077D00F458B0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				027531D617DC08C800F458B0 /* RXCompatibility.h */,
+				027531D417DC07A600F458B0 /* RXConstants.h */,
+				027531D517DC07AF00F458B0 /* RXMacros.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02473E8017DAA446009CA2C0 /* RixNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02473EB917DAA447009CA2C0 /* Build configuration list for PBXNativeTarget "RixNotes" */;
+			buildPhases = (
+				02473E7D17DAA446009CA2C0 /* Sources */,
+				02473E7E17DAA446009CA2C0 /* Frameworks */,
+				02473E7F17DAA446009CA2C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RixNotes;
+			productName = RixNotes;
+			productReference = 02473E8117DAA446009CA2C0 /* RixNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02473EA517DAA446009CA2C0 /* RixNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02473EBC17DAA447009CA2C0 /* Build configuration list for PBXNativeTarget "RixNotesTests" */;
+			buildPhases = (
+				02473EA117DAA446009CA2C0 /* Sources */,
+				02473EA217DAA446009CA2C0 /* Frameworks */,
+				02473EA317DAA446009CA2C0 /* Resources */,
+				02473EA417DAA446009CA2C0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02473EAD17DAA446009CA2C0 /* PBXTargetDependency */,
+			);
+			name = RixNotesTests;
+			productName = RixNotesTests;
+			productReference = 02473EA617DAA446009CA2C0 /* RixNotesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02473E7917DAA446009CA2C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RX;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ian Albert";
+			};
+			buildConfigurationList = 02473E7C17DAA446009CA2C0 /* Build configuration list for PBXProject "RixNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02473E7817DAA446009CA2C0;
+			productRefGroup = 02473E8217DAA446009CA2C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02473E8017DAA446009CA2C0 /* RixNotes */,
+				02473EA517DAA446009CA2C0 /* RixNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02473E7F17DAA446009CA2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02473E9117DAA446009CA2C0 /* InfoPlist.strings in Resources */,
+				02473E9917DAA446009CA2C0 /* Default.png in Resources */,
+				02473E9B17DAA446009CA2C0 /* Default@2x.png in Resources */,
+				02473E9D17DAA446009CA2C0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02473EA317DAA446009CA2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02473EB317DAA446009CA2C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02473EA417DAA446009CA2C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02473E7D17DAA446009CA2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02473E9317DAA446009CA2C0 /* main.m in Sources */,
+				02473E9717DAA446009CA2C0 /* RXAppDelegate.m in Sources */,
+				02473EA017DAA446009CA2C0 /* RixNotes.xcdatamodeld in Sources */,
+				02473EC517DAACB0009CA2C0 /* RXNoteListViewController.m in Sources */,
+				02473EC917DAAFE2009CA2C0 /* RXNote.m in Sources */,
+				02473ECC17DAB122009CA2C0 /* RXRemoteObject.m in Sources */,
+				027531CF17DC064E00F458B0 /* RXNoteService.m in Sources */,
+				027531D217DC065A00F458B0 /* RXUserService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02473EA117DAA446009CA2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02473EB617DAA447009CA2C0 /* RixNotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02473EAD17DAA446009CA2C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02473E8017DAA446009CA2C0 /* RixNotes */;
+			targetProxy = 02473EAC17DAA446009CA2C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02473E8F17DAA446009CA2C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02473E9017DAA446009CA2C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02473EB117DAA446009CA2C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02473EB217DAA446009CA2C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02473EB717DAA447009CA2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02473EB817DAA447009CA2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02473EBA17DAA447009CA2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RixNotes/RixNotes-Prefix.pch";
+				INFOPLIST_FILE = "RixNotes/RixNotes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02473EBB17DAA447009CA2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RixNotes/RixNotes-Prefix.pch";
+				INFOPLIST_FILE = "RixNotes/RixNotes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		02473EBD17DAA447009CA2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RixNotes.app/RixNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RixNotes/RixNotes-Prefix.pch";
+				INFOPLIST_FILE = "RixNotesTests/RixNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		02473EBE17DAA447009CA2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RixNotes.app/RixNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RixNotes/RixNotes-Prefix.pch";
+				INFOPLIST_FILE = "RixNotesTests/RixNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02473E7C17DAA446009CA2C0 /* Build configuration list for PBXProject "RixNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02473EB717DAA447009CA2C0 /* Debug */,
+				02473EB817DAA447009CA2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02473EB917DAA447009CA2C0 /* Build configuration list for PBXNativeTarget "RixNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02473EBA17DAA447009CA2C0 /* Debug */,
+				02473EBB17DAA447009CA2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02473EBC17DAA447009CA2C0 /* Build configuration list for PBXNativeTarget "RixNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02473EBD17DAA447009CA2C0 /* Debug */,
+				02473EBE17DAA447009CA2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02473E9E17DAA446009CA2C0 /* RixNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02473E9F17DAA446009CA2C0 /* RixNotes.xcdatamodel */,
+			);
+			currentVersion = 02473E9F17DAA446009CA2C0 /* RixNotes.xcdatamodel */;
+			path = RixNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02473E7917DAA446009CA2C0 /* Project object */;
+}
